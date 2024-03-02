@@ -1,0 +1,133 @@
+/* shared styles */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-title {
+    margin-top: 10px;
+    font-size: 2rem;
+    color: #131318;
+}
+
+.text-gray {
+    color: #13131891;
+}
+
+.btn-primary {
+    background-color: #FF5400;
+    padding: 12px 25px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    font-size: 1rem;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+/* navigation style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 15px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo h2 {
+    font-size: 1.8rem;
+    margin-left: 15px;
+}
+
+#bar-icon {
+    display: none;
+}
+
+.site-name {
+    color: #FF5400;
+}
+
+.menu-bar>ul {
+    display: flex;
+}
+
+.menu-bar li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+.menu-bar li .home {
+    color: #FF5400;
+}
+
+.menu-bar li a {
+    text-decoration: none;
+    color: #424247;
+}
+
+
+/* Tours section style  */
+.popular-tours-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.tours-content {
+    line-height: 1.5rem;
+}
+
+.tour-description {
+    margin-bottom: 25px;
+}
+
+/* choose destination styles */
+.destination-container {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.destination-place-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+/* Responsive style for small device*/
+@media screen and (max-width:600px) {
+    #bar-icon {
+        display: block;
+    }
+
+    .menu-bar>ul {
+        display: none;
+    }
+
+    nav {
+        padding: 20px 10px;
+    }
+
+    .popular-tours-container {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .tours-img img {
+        width: 100%;
+    }
+}
+
+/* medium device responsive style  */
+@media screen and (min-width:600px) and (max-width:992px) {
+    .popular-tours-container {
+        flex-direction: column;
+        padding: 15px;
+    }
+}
