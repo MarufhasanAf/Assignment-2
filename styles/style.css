@@ -203,6 +203,38 @@ nav {
     border: 1px solid #fae2ca;
 }
 
+/* Reviews customer style  */
+customer-review-container {
+    margin-top: 60px;
+}
+
+.review-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.review-card {
+    background-color: rgba(237, 237, 237, 0.309);
+    padding: 40px 30px;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.702);
+}
+
+.review-card img {
+    width: 16px;
+    height: 16px;
+}
+
+.review-card h5 {
+    color: #FF5400;
+    font-size: 1rem;
+}
+
+.color-tomato {
+    color: #FF5400;
+}
+
 /* Newsletter section styles  */
 .newsletter-container {
     margin-top: 60px;
@@ -346,6 +378,10 @@ footer {
 
     .banner-container h3 {
         margin: 0;
+    }
+
+    .review-card-container {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
