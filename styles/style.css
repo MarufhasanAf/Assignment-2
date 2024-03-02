@@ -78,6 +78,55 @@ nav {
     color: #424247;
 }
 
+/* banner section style  */
+.banner-container {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.713), rgba(27, 27, 27, 0.2)), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin-bottom: 60px;
+    border-radius: 13px;
+}
+
+.banner-container h3 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.banner-container p {
+    line-height: 2rem;
+}
+
+.input-buttons-container {
+    padding: 15px;
+    background-color: rgba(220, 220, 220, 0.301);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.banner-btn {
+    width: 174px;
+    padding: 12px 8px;
+    border-radius: 6px;
+    border: none;
+    color: #424247;
+    outline: none;
+}
+
+.find-now-btn {
+    background-color: #FF5400;
+    color: white;
+}
 
 /* Tours section style  */
 .popular-tours-container {
@@ -269,7 +318,8 @@ footer {
     .popular-tours-container,
     .row,
     .card-a-row,
-    .newsletter-container {
+    .newsletter-container,
+    .input-buttons-container {
         flex-direction: column;
         padding: 15px;
     }
@@ -288,6 +338,14 @@ footer {
 
     .save-70 {
         right: -50px;
+    }
+
+    .banner-container {
+        padding: 40px 10px;
+    }
+
+    .banner-container h3 {
+        margin: 0;
     }
 }
 
@@ -308,4 +366,5 @@ footer {
     .form-container {
         margin: 0px auto;
     }
+
 }
