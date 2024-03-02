@@ -35,6 +35,13 @@
     margin: 0px auto;
 }
 
+.background-set {
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* navigation style */
 nav {
     display: flex;
@@ -160,8 +167,53 @@ nav {
     margin-top: 20px;
 }
 
-.row div img {
-    width: 100%;
+.maldives {
+    background-image: url('../Images/Rectangle\ 5.png');
+    width: 573px;
+    height: 300px;
+
+}
+
+.indonesia {
+    background-image: url('../Images/Rectangle\ 8.png');
+    width: 573px;
+    height: 300px;
+}
+
+.srilanka {
+    background-image: url('../Images/Rectangle\ 6.png');
+    width: 374px;
+    height: 288px;
+}
+
+.north-america {
+    background-image: url('../Images/Rectangle\ 7.png');
+    width: 474px;
+    height: 288px;
+}
+
+.kashmir {
+    background-image: url('../Images/Rectangle\ 9.png');
+    width: 274px;
+    height: 288px;
+}
+
+.bangladesh {
+    background-image: url('../Images/Rectangle\ 11.png');
+    width: 473px;
+    height: 300px;
+}
+
+.bandarban {
+    background-image: url('../Images/Rectangle\ 10.png');
+    width: 673px;
+    height: 300px;
+}
+
+.place-name {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
 }
 
 /* why choose us styles  */
@@ -357,7 +409,6 @@ footer {
     }
 
     .tours-img img,
-    .place img,
     .newsletter-img-container img,
     .form-container {
         width: 100%;
@@ -369,7 +420,7 @@ footer {
     }
 
     .save-70 {
-        right: -50px;
+        right: -40px;
     }
 
     .banner-container {
@@ -383,6 +434,20 @@ footer {
     .review-card-container {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .sm-responsive {
+        width: 335px;
+        height: 176px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 15px;
+    }
+
+    .newsletter-img-container img {
+        width: 100%;
+        height: 300px;
+    }
+
 }
 
 /* medium device responsive style  */
@@ -401,6 +466,14 @@ footer {
 
     .form-container {
         margin: 0px auto;
+    }
+
+    .sm-responsive {
+        width: 335px;
+        height: 176px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 15px;
     }
 
 }
